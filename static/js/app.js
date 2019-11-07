@@ -40,6 +40,7 @@ function buildCharts(sample) {
     var bubble_data = [bubble_trace];
     var bubble_layout = {
       title: "OTU ID and Sample Values",
+      autosize: true,
       xaxis: {
         title: {
           text: "OTU ID"
